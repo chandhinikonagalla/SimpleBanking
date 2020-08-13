@@ -10,7 +10,7 @@
     // registering the driver class
     Class.forName("com.mysql.jdbc.Driver");
     // establishing the connection
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/simplebanking","scott","Masthan555!");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/simplebanking","username","password");
 
     Statement st = con.createStatement();
     PreparedStatement pst;
